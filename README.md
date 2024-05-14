@@ -1,2 +1,2 @@
-# Javascript-Learning
+# Javascript Learning
 JavaScript journey learnings.
