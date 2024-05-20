@@ -7,13 +7,21 @@
         ->It is a tree like structure.
 
     3)DOM Manipulation-
+        ->Selected elements is returned so we use variables to store them.
+
         1)Selecting with id-
             ->We can select elements by there Id.
             ->Syntax- document.getElementById("Id_name");
             ->Example- document.getElementById("nav");
+
+        2)Slecting with class name-
+            ->We can select elements with there class name.
+            ->It returns a HTML Collection.
+            ->Syntax- document.getElementByClassName("class_name");
+            ->Example- document.getElementsByClassName("paragraphs");
 */
 
-// let heading = document.getElementById("heading");
-// heading.backgroundColor = "green";
+//Selecting element by ID
+let heading = document.getElementById("heading");
+heading.style.backgroundColor = "green";
 
-document.getElementById("heading").backgroundColor = "green";
