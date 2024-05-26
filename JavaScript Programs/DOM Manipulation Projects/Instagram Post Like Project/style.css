@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(90, 87, 87);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  #card {
+    background-color: white;
+    height: 500px;
+    width: 600px;
+    display: flex;
+  }
+  
+  .img {
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+  }
+  
+  .content img {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+  }
+  
+  /* New style for the like button */
+  .like {
+    background-color: pink; /* Replace with your pink color value */
+  }
+  
