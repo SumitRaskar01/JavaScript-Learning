@@ -1,2 +1,0 @@
-This is dice game for 2 player's which I made in my JS Learning Series.
-In this game two player's set a target and play whoever achieves the target win's the game.
