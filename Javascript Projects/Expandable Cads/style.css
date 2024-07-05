@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 600px;
+    width: 100px;
+    margin: 20px 20px;
+    border-radius: 50px;
+    object-fit: cover;
+    transition: width 1.5s ease;
+}
+
+.box{
+    display: flex;
+}
+
+.expand{
+    width: 930px;
+}
